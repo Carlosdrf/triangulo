@@ -10,7 +10,7 @@ if(isset($_POST['btn'])&& $_POST['btn']== 'calcular'){
 
         $hipotenusa = sqrt(pow($lado1, 2)+pow($lado2,2));
         
-        echo "<br>La hipotenusa del triangulo es: ".round($hipotenusa,3);
+        echo "<br>La hipotenusa del triangulo es: ".round($hipotenusa,3)."cm²";
         echo "<br/><br/>";
         echo "<a href='index.html'>regresar</a>";
     }
